@@ -49,7 +49,7 @@ function show(e){
        public_repos .textContent= `public_repos  : ${res.data.public_repos }`;
        info.appendChild(public_repos);
        let email = document.createElement('h6');
-       email.textContent= `femail: ${res.data.email}`;
+       email.textContent= `email: ${res.data.email}`;
        info.appendChild(email);
 
 
